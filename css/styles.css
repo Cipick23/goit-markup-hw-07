@@ -192,13 +192,16 @@ ul {
  /* second section */
 
 .info-section {
-    /* position: absolute;
-    display: flex; */
-    /* flex-direction: column; */
     background: var(--background-color);
 }
 
-/* .icon-objectives, */
+.objectives-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-objective {
     position: absolute;
     display: flex;
@@ -226,12 +229,6 @@ ul {
     flex-direction: row;
     margin-left: 215px;
     gap: 30px;
-}
-
-.container-objective {
-    display: flex;
-    height: 101px;
-    padding: 0px 215px 0px 215px;
 }
 
 .container-objectives {
@@ -307,7 +304,6 @@ ul {
     justify-content: center;
     width: 198px;
     height: 42px;
-    /* margin: 94px 701px 50px 701px; */
 }
 
 .container-images > ul {
