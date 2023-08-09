@@ -1204,6 +1204,11 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
+.global-aside-separator {
+    width: 1px;
+    height: 22px;
+    background: #21212133;
+}
 
 /* Tablet design */
 

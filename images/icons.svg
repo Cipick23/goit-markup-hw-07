@@ -92,5 +92,8 @@
 <symbol id="icon-menu-button" viewBox="0 0 32 32">
 <path fill="currentColor" d="M6.4 11.76v-2.16h19.2v2.16h-19.2zM6.4 17.040h19.2v-2.080h-19.2v2.080zM6.4 22.4h19.2v-2.16h-19.2v2.16z"></path>
 </symbol>
+<symbol id="icon-Line-list" viewBox="0 0 1 32">
+<path fill="currentColor" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.4545" d="M0.727 0v32"></path>
+</symbol>
 </defs>
 </svg>
