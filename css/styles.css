@@ -36,7 +36,6 @@ ul {
     flex-direction: column;
     background: var(--background-color);
     /* width: 1600px; */
-    /* height: 2930px; */
     background: #FFF;
 }
 
@@ -58,7 +57,7 @@ ul {
 
 .global-header .first-container {
     display: flex;
-    height: 82px;
+    /* height: 82px; */
     background-color: #fff;
     border-bottom: 1px;
     border: solid #ECECEC;
@@ -68,7 +67,7 @@ ul {
 .web-container {
     position: absolute;
     min-width: 480px;
-    height: 60px;
+    /* height: 60px; */
     flex-shrink: 0;
     top: 16px;
     left: 15px;
