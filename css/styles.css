@@ -1,6 +1,6 @@
 * {
     margin:0;
-    padding:0;
+    /* padding:0; */
     box-sizing: border-box;
 }
 
@@ -35,7 +35,6 @@ ul {
     display: flex;
     flex-direction: column;
     background: var(--background-color);
-    /* width: 1600px; */
     background: #FFF;
 }
 
@@ -77,7 +76,7 @@ ul {
 
 .menu-container {
     min-width: 320px;
-  max-width: 1170px;
+    max-width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -90,7 +89,6 @@ ul {
     border: transparent;
     top: 10px;
     right: 15px;
-    
     min-height: 40px;
     min-width: 40px;
     display: flex;
@@ -108,7 +106,6 @@ ul {
     height: 40px;
     flex-shrink: 0;
 }
-
 
 .menu-button > svg:hover::after,
 .menu-button > svg:focus::after {
@@ -129,7 +126,6 @@ ul {
     transition: var(--transition);
     cursor: pointer;
 }
-
 
 /* links */
 
@@ -235,7 +231,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* justify-self: center; */
     gap: 30px;
     width: 450px;
     height: 120px;
@@ -248,7 +243,6 @@ ul {
 }
 
 .test > svg {
-    
     width: 70px;
     height: 70px;
     margin: 25px 100px 25px 100px;
@@ -258,7 +252,6 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* /* align-items: center; */
     justify-content: center;
     justify-self: center;
     gap: 30px;
@@ -1094,7 +1087,7 @@ ul {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
+    padding: 10px 15px;
     background-color: #fff;
     z-index: 10;
     transform: translateX(100%);
@@ -1104,15 +1097,13 @@ ul {
 .menu-box.is-open {
     transform: translateX(0);
 }
-  
+
 .menu-toggle {
     min-height: 40px;
     min-width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
     background-color: transparent;
     cursor: pointer;
     border: none;
@@ -1120,13 +1111,18 @@ ul {
     outline: none;
 }
 
+.menu-toggle.js-close-menu {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
 .menu-toggle > svg {
     position: absolute;
     width: 40px;
     height: 40px;
     flex-shrink: 0;
-    top: 10px;
-    right: 15px;
 }
 
 .menu-toggle > svg:hover {
@@ -1142,7 +1138,6 @@ ul {
 .mobile-menu-section {
     display: block;
     padding: 10px;
-    /* color: #fff; */
     text-decoration: none;
 }
 
@@ -1151,7 +1146,6 @@ ul {
 }
 
 .mobile-menu-links {
-    color: #2196F3;
     color: #212121;
     font-family: Roboto;
     font-size: 40px;
@@ -1167,6 +1161,12 @@ ul {
 
 .color-menu .active-menu {
     color: #212121;
+}
+
+.color-menu .active-menu:hover {
+    color: #2196F3;
+    cursor: pointer;
+    transition: var(--transition);
 }
 
 .phone-color {
@@ -1354,12 +1354,10 @@ ul {
         justify-content: center;
         align-items: center;
         gap: 40px;
-        /* margin-left: 330px; */
 }
     
 .icon-list .contact-header {
         flex-shrink: 0;
-        /* margin-top: 32px; */
 }
     
 .email-link > svg {
@@ -1454,18 +1452,14 @@ ul {
 }
 
 .objectives-images {
-    /* position: absolute; */
     display: flex;
     flex-direction: column;
     top: 94px;
 }
 
 .objectives-images .test {
-    /* gap: 30px; */
     width: 270px;
     height: 120px;
-    /* margin-top: 94px; */
-    /* margin-bottom: 30px; */
     border-radius: 4px;
     background: #F5F4FA;
 }
@@ -1473,16 +1467,12 @@ ul {
 .objectives-images .test > svg {
     width: 70px;
     height: 70px;
-    /* margin: 25px 100px 25px 100px; */
 }
 
 .icon-objectives {
     position: absolute;
     display: flex;
     flex-direction: row;
-    /* left: 215px;  */
-    /* top: 94px; */
-    /* gap: 30px; */
 }
 
 .container-paragraph {
@@ -1491,7 +1481,6 @@ ul {
     flex-wrap: wrap;
     width: 270px;
     height: 75px;
-    /* margin-top: 10px; */
 }
 
 .info-section > ul > li > section {
