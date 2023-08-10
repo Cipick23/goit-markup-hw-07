@@ -1230,7 +1230,6 @@ ul {
     width: 1600px; 
     height: 2930px;
     flex-shrink: 0;
-     
 }
 
 .web-container > h1 {
@@ -1268,7 +1267,7 @@ ul {
  /* button menu Desktop */
 
 .menu-button {
-       display: none;
+    display: none;
 }
 
 /* link header Desktop */
@@ -1302,6 +1301,13 @@ ul {
     position: relative;
     text-decoration: none;
     transition: var(--transition);
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
 .box .active:hover::after,
@@ -1587,7 +1593,6 @@ ul {
 }
 
 .footer-address {
-    /* width: 422px; */
     align-items: start;
 }
 
@@ -1598,7 +1603,6 @@ ul {
 
 .address-layout {
     align-items: start;
-    /* justify-content: space-around; */
     width: 231px;
     height: 72px;
 }
