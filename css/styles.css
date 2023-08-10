@@ -375,7 +375,7 @@ ul {
 .image-layer > h6 {
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -389,8 +389,6 @@ ul {
 .title-image {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
     align-items: center;
     background: #F5F4FA;
 }
@@ -406,6 +404,8 @@ ul {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .box-card {
@@ -414,9 +414,8 @@ ul {
     gap: 30px;
     flex-direction: column;
     justify-content: center;
-    width: 206px;
-    height: 44px;
     flex-shrink: 0;
+    margin-bottom: 60px;
 }
 
 .images {
@@ -495,7 +494,8 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 94px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .regular-customers > h2 {
@@ -614,7 +614,6 @@ ul {
     gap: 10px;
     width: 44px;
     height: 44px;
-    /* flex-shrink: 0; */
     margin-top: 20px;
 }
 
@@ -996,13 +995,11 @@ ul {
     align-items: center;
 }
 
-  /* checkbox */
 .checkbox-size {
     width: 20px;
     height: 20px;
 }
   
-  /* checkmark icon */
 .vector-check {
     width: 11px;
     height: 8px;
@@ -1010,7 +1007,6 @@ ul {
     visibility: hidden;
 }
   
-  /* checkbox icon */
 .icon-checkbox {
     position: absolute;
     top: 0px;
@@ -1219,7 +1215,7 @@ ul {
 @media screen and (min-width: 768px) {
 }
 
-/* Desktop design  */
+/* DESKTOP DESIGN  */
 
 
 @media screen and (min-width: 1200px) {
@@ -1544,6 +1540,8 @@ letter-spacing: 0.28px;
     width: 1600px;
     height: 708px;
     flex-shrink: 0;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .box-card {
