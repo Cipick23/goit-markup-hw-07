@@ -1185,8 +1185,7 @@ ul {
 
 /* DESKTOP DESIGN  */
 
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1170px) {
 
  /* Header Desktop */
 
@@ -1270,12 +1269,12 @@ ul {
     text-decoration: none;
     transition: var(--transition);
     color: #212121;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .box .active:hover::after,
