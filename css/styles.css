@@ -139,6 +139,15 @@ ul {
 
 /*  first section */
 
+.logo-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 118px 60px 118px 60px;
+}
+
 @media (min-device-pixel-ratio: 1),
 (-webkit-min-device-pixel-ratio: 1),
 (min-resolution: 192dpi),
@@ -146,7 +155,7 @@ ul {
 .logo-section {
     background-image: url(../images/team-image-2x.png);
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
     height: 400px;
     background-size: 100% 400px;
     display: flex;
@@ -160,19 +169,15 @@ ul {
 }
 
 .about-logo {
-    /* min-width: 360px; */
-    min-height: 84px;
     color: #FFF;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    margin: 200px 452px 30px 452px;
     text-transform: uppercase;
     text-align: center;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 26px;
     font-style: normal;
     font-weight: 900;
@@ -181,8 +186,6 @@ ul {
 }
 
 .button-service {
-    margin: 30px 700px 200px 700px;
-    padding: 10px 19px 10px 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -237,10 +240,10 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    /* width: 450px; */
     height: 120px;
-    width: 100%;
-    margin: 15px auto;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
     margin-bottom: 30px;
     border-radius: 4px;
     background-color: #F5F4FA;
@@ -445,7 +448,7 @@ ul {
     margin-bottom: 30px;
 }
 
-.regular-customers > h2 {
+.icon-customers > h2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -459,7 +462,6 @@ ul {
 }
 
 .icon-customers > ul {
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
@@ -467,11 +469,11 @@ ul {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    padding: 15px;
 }
 
 .icons-box .icons {
     width: 100%;
-    height: 92px;
     flex-shrink: 0;
     background-color: var(--background-color);
     color: var(--social-icon-color);
@@ -498,18 +500,18 @@ ul {
 }
 
 .icons > svg {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    height: 80%;
-}
+    max-width: 100%;
+    height: 60px;
+    /* border: 1px auto; */
+} 
 
 /*  footer section  */
 
 .footer-address > h2 {
     display: flex;
-    /* justify-content: center; */
     color: #2196F3;
     margin-bottom: 28px;
     margin-top: 60px;
@@ -1578,15 +1580,19 @@ letter-spacing: 0.28px;
 .regular-customers {
     display: flex;
     flex-direction: column;
-    top: 2401px;
-    left: 215px;
-    bottom: 345px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+
 }
 
 .icon-customers > ul {
     display: flex;
     flex-direction: row;
-    margin: 94px;
+    /* margin: 94px; */
+}
+
+.icons > svg {
+    max-width: 170px;
 }
 
 /* footer section Desktop */
