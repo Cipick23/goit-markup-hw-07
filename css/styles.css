@@ -504,8 +504,9 @@ ul {
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    padding: auto;
     height: 60px;
-    /* border: 1px auto; */
+    border: 1px;
 } 
 
 /*  footer section  */
@@ -1582,17 +1583,16 @@ letter-spacing: 0.28px;
     flex-direction: column;
     margin-top: 94px;
     margin-bottom: 94px;
-
 }
 
 .icon-customers > ul {
     display: flex;
     flex-direction: row;
-    /* margin: 94px; */
 }
 
 .icons > svg {
     max-width: 170px;
+    padding: auto;
 }
 
 /* footer section Desktop */
