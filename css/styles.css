@@ -24,7 +24,7 @@
 
 a:-webkit-any-link {
     cursor: pointer;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 ul {
@@ -1477,6 +1477,7 @@ letter-spacing: 0.28px;
     justify-content: center;
     height: 42px;
     width: 100%;
+    margin-top: 94px;
 }
 
 .container-images > ul {
@@ -1596,6 +1597,7 @@ letter-spacing: 0.28px;
     align-items: start;
     width: 231px;
     height: 72px;
+    margin-bottom: 60px;
 }
 
 .phone-footer {
