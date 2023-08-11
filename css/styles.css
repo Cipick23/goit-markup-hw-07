@@ -1211,6 +1211,10 @@ ul {
     display: none;
 }
 
+.js-open-menu {
+    flex-shrink: 0;
+}
+
 /* link header Desktop */
 
 .first-container .box {
