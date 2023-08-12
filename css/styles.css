@@ -347,13 +347,15 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
     color: #212121;
     text-align: center;
-    font-size: 36px;
-    font-style: var(--font-style);
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.08px;
+    letter-spacing: 0.84px;
     margin-top: 60px;
     margin-bottom: 30px;
 }
@@ -454,12 +456,13 @@ ul {
     justify-content: center;
     color: #212121;
     text-align: center;
-    font-size: 36px;
+    font-family: var(--font-family);
+    font-size: 28px;
     font-style: var(--font-style);
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.08px; 
-}
+    letter-spacing: 0.84px;
+    }
 
 .icon-customers > ul {
     align-items: center;
@@ -469,7 +472,7 @@ ul {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    /* padding: 15px; */
+    padding: 15px;
 }
 
 .icons-box .icons {
@@ -483,11 +486,12 @@ ul {
 .icons-box:hover,
 .icons-box:focus,
 .icons-box .icons:focus,
-.icons-box .icons:hover {
+.icons-box .icons:hover { 
     border-radius: 4px;
     border: 1px solid #2196F3;
     background-color: var(--background-color);
     color: var(--social-link-color-hover); 
+    cursor: pointer;
 }
 
 .icons-box {
@@ -497,16 +501,18 @@ ul {
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     transition: var(--transition);
+    max-width: 100%;
+    height: 92px;
 }
 
 .icons > svg {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    padding: auto;
+    /* padding: auto; */
     height: 60px;
-    border: 1px;
+    /* border: 1px; */
 } 
 
 /*  footer section  */
@@ -567,7 +573,6 @@ ul {
 .icons-footer {
     display: flex;
     gap: 10px;
-    margin-top: 20px;
     width: 44px;
     height: 44px;
 }
@@ -1572,7 +1577,9 @@ ul {
 }
 
 .title-image > h2 {
-    margin-top: 94px;
+    margin-top: 94px; 
+    font-size: 36px;
+    letter-spacing: 1.08px;
 }
 
 /* Regular Customers Desktop */
@@ -1589,19 +1596,44 @@ ul {
     flex-direction: row;
 }
 
-.icons > svg {
-    width: 106px;
-    height: 60px;
+.icon-customers > h2 {
+    font-size: 36px;
+    letter-spacing: 1.08px; 
+}
+
+.icons-box {
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    transition: var(--transition);
+    width: 170px;
+    height: 92px;
+    flex-shrink: 0;
 }
 
 .icons-box .icons {
-    width: 170px;
-    height: 92px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--background-color);
+    color: var(--social-icon-color);
+    transition: var(--transition);
 }
 
+.icons > svg {
+    display: flex;
+    width: 106px;
+    height: 60px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.rectangular-icons-section {
+    width: 210px;
+    height: 92px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+
+}
 
 /* footer section Desktop */
 
