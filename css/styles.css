@@ -184,7 +184,6 @@ ul {
     font-weight: 900;
     line-height: 42px;
     letter-spacing: 1.56px;
-    
     width: 360px;
     width: 100%;
 }
@@ -257,10 +256,11 @@ ul {
     background-size: 450px 120px;
 }
 
-.test > svg {
+.objectives-images .test > svg {
     width: 70px;
     height: 70px;
     margin: 25px 100px 25px 100px;
+    flex-shrink: 0;
 }
 
 .icon-objectives {
@@ -1437,11 +1437,6 @@ ul {
     height: 120px;
     border-radius: 4px;
     background: #F5F4FA;
-}
-
-.objectives-images .test > svg {
-    width: 70px;
-    height: 70px;
 }
 
 .icon-objectives {

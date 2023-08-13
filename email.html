@@ -9,7 +9,37 @@
     href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
 </head>
 <body>
-    <h1>WebStudio</h1>
-    info@devstudio.com
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .button-blue {
+            background-color: aqua;
+            fill: black;
+            width: 50px;
+            height: 30px;
+            margin-top: 10px;
+        }
+    </style>
+    <h1>Contact Us</h1>
+    Send to
+    <form action="email-form">
+        <label for="text">
+            <input type="text" placeholder="email to">
+        </label>
+        <label class="form-group">
+            <span class="label-text">Comments</span>
+            <textarea name="message" rows="5" placeholder="Enter the text" class="icon-input input-text"></textarea>
+        </label>
+        <button type="submit" class="button-blue">Send</button>
+    </form>
 </body>
 </html>
