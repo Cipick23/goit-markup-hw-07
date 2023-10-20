@@ -31,11 +31,8 @@ ul {
     list-style-type: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    background: var(--background-color);
-    background: #FFF;
+.container {    
+    width: 100%;
 }
 
 /* header section */
@@ -145,8 +142,6 @@ ul {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    /* margin-top: 200px; */
-    /* margin-bottom: 200px; */
 }
 
 @media (min-device-pixel-ratio: 1),
@@ -1196,6 +1191,54 @@ ul {
 }
 }
 
+.box-objective {
+    
+}
+
+.icon-objectives {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.objectives-images {
+    width: 100%;
+}
+.box-card {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.icon-customers > ul {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px
+}
+
+/* Footer Section */
+
+.footer-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    row-gap: 60px;
+}
+
+.footer-address,
+.link-footer {
+    display: flex;
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-footer {
+    display: flex;
+    flex-direction: column;
+}
 
 }
 
@@ -1205,11 +1248,6 @@ ul {
 
  /* Header Desktop */
 
-.container {    
-    width: 1600px; 
-    height: 2930px;
-    flex-shrink: 0;
-}
 
 .web-container > h1 {
     color: #2196F3;
@@ -1567,6 +1605,31 @@ ul {
 
 /* Our Team Desktop */
 
+
+.box-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--background-color);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--background-color);
+
+}
+
 .title-image {
     width: 1600px;
     height: 708px;
@@ -1587,6 +1650,7 @@ ul {
     font-size: 36px;
     letter-spacing: 1.08px;
 }
+
 
 /* Regular Customers Desktop */
 
