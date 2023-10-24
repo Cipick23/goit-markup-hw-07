@@ -1227,17 +1227,44 @@ ul {
 
 .footer-address,
 .link-footer {
-    display: flex;
+    grid-column: span 1;
+    grid-row: 1;
 }
 
-.footer-address {
-    display: flex;
-    flex-direction: column;
+.footer-address > h2 {
+    margin-top: 30px;
+}
+
+.link-footer,
+.input-footer > h6 {
+    display: block;
 }
 
 .link-footer {
+    display: block;
+    margin-left: 165px;
+}
+
+.input-footer {
+    grid-column: span 3;
+    grid-row: 2; 
+}
+
+.input-footer > h6 {
+font-size: 14px;
+letter-spacing: 0.42px;
+}
+.email-input {
+    width: 195%;
+}
+
+.acces-input {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between; /* Spațiu egal între elementele din div */
+    align-items: center;
+}
+.input-content {
+    width: 100%; /* Umple spațiul rămas */
 }
 
 }
@@ -1651,7 +1678,6 @@ ul {
     letter-spacing: 1.08px;
 }
 
-
 /* Regular Customers Desktop */
 
 .regular-customers {
@@ -1683,17 +1709,11 @@ ul {
 
 /* footer section Desktop */
 
-.footer-address > h2 {
-    align-items: start;
-    justify-content: start;
-}
+
 
 .footer-section {
-    width: 1600px;
-    height: 251px;
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer-address {
@@ -1730,7 +1750,7 @@ ul {
 }
 
 .input-footer {
-    margin-bottom: 0;
+    
     display: inline-flex;
     align-items: start;
 }
