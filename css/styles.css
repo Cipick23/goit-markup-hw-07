@@ -1191,10 +1191,6 @@ ul {
 }
 }
 
-.box-objective {
-    
-}
-
 .icon-objectives {
     
     display: grid;
@@ -1254,6 +1250,7 @@ ul {
 font-size: 14px;
 letter-spacing: 0.42px;
 }
+
 .email-input {
     width: 195%;
 }
@@ -1266,7 +1263,6 @@ letter-spacing: 0.42px;
 .input-content {
     width: 100%; /* Umple spațiul rămas */
 }
-
 }
 
 /* DESKTOP DESIGN  */
@@ -1294,9 +1290,8 @@ letter-spacing: 0.42px;
     display: flex;
     height: 82px;
     background-color: #fff;
-    border-bottom: 1px;
-    border: solid #ECECEC;
-    width: 1600px;
+    border-bottom: 1px solid #ECECEC;
+    width: 100%;
 }
 
 .web-container {
@@ -1316,6 +1311,10 @@ letter-spacing: 0.42px;
 
 .js-open-menu {
     flex-shrink: 0;
+}
+
+.js-open-menu .menu-button {
+    display: block;
 }
 
 /* link header Desktop */
@@ -1447,52 +1446,44 @@ letter-spacing: 0.42px;
 }
 
 /* first section Desktop */
-
 .logo-section {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     background-image: url(../images/team-image.jpg);
     background-color: #C4C4C4;
-    background-size: 1572px 600px;
-    margin-left: 28px;
-    width: 1600px;
+    background-size: 100%;
+    width: 100%;
     height: 600px;
-
 }
 
 .about-logo {
-    line-height: 42px;
     color: #FFF;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     text-align: center;
     font-size: 44px;
-    font-style: 1;
     font-weight: 900;
-    line-height: 1.3;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    width: 696px;
+    max-width: 696px;
+    margin: 0 auto;
+    line-height: 1.3;
 }
 
- /* second section Desktop */
 
-.info-section {
-    /* background: var(--background-color); */
-    width: 1600px;
+ /* second section Desktop */
+ .info-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
 }
 
 .objectives-images {
     display: flex;
     flex-direction: column;
-    top: 94px;
+    align-items: center;
 }
 
 .objectives-images .test {
@@ -1505,50 +1496,49 @@ letter-spacing: 0.42px;
 .icon-objectives {
     display: flex;
     flex-direction: row;
+    gap: 30px;
+}
+
+.box-objective {
+    padding: 94px 0px;
+    margin-left: 215px;
 }
 
 .container-paragraph {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 270px;
     height: 75px;
 }
 
 .info-section > ul > li > section {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: stretch;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .info-section > ul > li {
     display: flex;
+    flex-direction: column;
 }
 
 .info-section > ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     gap: 30px;
 }
 
 .title-heading {
     display: flex;
-    width: 270px;
     flex-direction: column;
     flex-shrink: 0;
-    line-height: 16px;   
+    line-height: 16px;
 }
 
 .icon-objectives > h6 {
     color: #212121;
     font-size: 14px;
-    font-style: var(--font-style);
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
@@ -1556,87 +1546,21 @@ letter-spacing: 0.42px;
 .details-paragraph {
     color: #757575;
     font-size: 14px;
-    font-style: var(--font-style);
     font-weight: var(--font-weight);
     line-height: 1.7;
     letter-spacing: 0.42px;
 }
 
-/* what we do Desktop */
-
-.container-images {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.container-images > h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 42px;
-    width: 100%;
-    margin-top: 94px;
-}
-
-.container-images > ul {
-    margin: 94px 215px 94px 215px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-}
-
-.info-section > div > h2 {
-    color: #212121;
-    text-align: center;
-    font-size: 36px;
-    font-style: var(--font-style);
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-}
-
-.image-layout {
-    position: relative;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    height: auto;   
-}
-
-.image-layer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #2f303acc;
-    position: absolute;
-    bottom: 0;
-    color: #fff;
-    width: 100%;
-    height: 70px;
-}
-
-.image-layer > h6 {
-    color: #FFF;
-    text-align: center;
-    font-family: var(--font-family);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-}
 
 /* Our Team Desktop */
-
-
 .box-card {
     display: flex;
     align-items: center;
     gap: 30px;
+    flex-direction: row; 
+    width: 1170px;
+    height: 428px;
+    flex-shrink: 0;
 }
 
 .images {
@@ -1654,26 +1578,19 @@ letter-spacing: 0.42px;
     align-items: center;
     gap: 30px;
     background-color: var(--background-color);
-
 }
 
 .title-image {
-    width: 1600px;
+    width: 100%;
     height: 708px;
     flex-shrink: 0;
     flex-wrap: nowrap;
+    display: flex;
     justify-content: space-evenly;
 }
 
-.box-card {
-    flex-direction: row;
-    width: 1170px;
-    height: 428px;
-    flex-shrink: 0;
-}
-
 .title-image > h2 {
-    margin-top: 94px; 
+    margin-top: 94px;
     font-size: 36px;
     letter-spacing: 1.08px;
 }
@@ -1708,26 +1625,36 @@ letter-spacing: 0.42px;
 }
 
 /* footer section Desktop */
-
-
-
 .footer-section {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
 }
 
+.footer-address,
+.link-footer,
+.input-footer {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.email-input {
+    width: 90%;
+}
+
 .footer-address {
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .link-footer > h6 {
     display: inline-flex;
-   align-items: start;
+    align-items: flex-start;
 }
 
 .address-layout {
-    align-items: start;
+    align-items: flex-start;
     width: 231px;
     height: 72px;
     margin-bottom: 60px;
@@ -1750,14 +1677,14 @@ letter-spacing: 0.42px;
 }
 
 .input-footer {
-    
     display: inline-flex;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .acces-input {
     display: inline-flex;
     flex-direction: row;
     gap: 12px;
+    width: 60%;
 }
 }
