@@ -1255,11 +1255,11 @@ letter-spacing: 0.42px;
 
 .acces-input {
     display: flex;
-    justify-content: space-between; /* Spațiu egal între elementele din div */
+    justify-content: space-between;
     align-items: center;
 }
 .input-content {
-    width: 100%; /* Umple spațiul rămas */
+    width: 100%;
 }
 }
 
@@ -1268,7 +1268,6 @@ letter-spacing: 0.42px;
 @media screen and (min-width: 1170px) {
 
  /* Header Desktop */
-
 
 .web-container > h1 {
     color: #2196F3;
