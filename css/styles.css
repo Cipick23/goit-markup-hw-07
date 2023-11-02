@@ -334,7 +334,7 @@ ul {
     display: none;
 }
 
-/*  section 3 */
+/*  our team mobile section */
 
 .title-image {
     display: flex;
@@ -350,7 +350,7 @@ ul {
     flex-wrap: nowrap;
     color: #212121;
     text-align: center;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -1190,7 +1190,6 @@ ul {
 }
 
 .icon-objectives {
-    
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -1198,6 +1197,7 @@ ul {
 .objectives-images {
     width: 100%;
 }
+
 .box-card {
     display: grid;
     grid-template-columns: auto auto;
@@ -1245,8 +1245,8 @@ ul {
 }
 
 .input-footer > h6 {
-font-size: 14px;
-letter-spacing: 0.42px;
+    font-size: 14px;
+    letter-spacing: 0.42px;
 }
 
 .email-input {
@@ -1258,6 +1258,7 @@ letter-spacing: 0.42px;
     justify-content: space-between;
     align-items: center;
 }
+
 .input-content {
     width: 100%;
 }
@@ -1383,14 +1384,14 @@ letter-spacing: 0.42px;
 }
 
 .icon-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
     
 .icon-list .contact-header {
-        flex-shrink: 0;
+    flex-shrink: 0;
 }
     
 .email-link > svg {
@@ -1443,6 +1444,7 @@ letter-spacing: 0.42px;
 }
 
 /* first section Desktop */
+
 .logo-section {
     display: flex;
     flex-direction: column;
@@ -1467,8 +1469,8 @@ letter-spacing: 0.42px;
     line-height: 1.3;
 }
 
-
  /* second section Desktop */
+
  .info-section {
     width: 100%;
     display: flex;
@@ -1622,6 +1624,7 @@ letter-spacing: 0.42px;
 }
 
 /* footer section Desktop */
+
 .footer-section {
     display: flex;
     justify-content: space-between;
