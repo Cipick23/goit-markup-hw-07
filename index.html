@@ -468,7 +468,12 @@
     <!-- modal section -->
     <div class="modal is-hidden" data-modal>
         <div class="modal-content">
-            <div class="close-btn" data-modal-close>
+            <div 
+                class="close-btn" 
+                data-modal-close>
+                <svg class="icon-btn">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
             </div>
 
             <form action="form-input" autocomplete="on" novalidate>
@@ -481,6 +486,9 @@
                             Name
                         </span>
                         <input type="text" name="name" class="icon-input" required />
+                        <svg class="input">
+                            <use href="./images/icons.svg#icon-person-black"></use>
+                        </svg>
                     </label>
 
                     <label class="form-group">
@@ -488,7 +496,9 @@
                             Telephone
                         </span>
                         <input type="number" name="telephone" class="icon-input" required>
-
+                        <svg class="input">
+                            <use href="./images/icons.svg#icon-phone-black"></use>
+                        </svg>
                     </label>
 
                     <label class="form-group">
@@ -496,6 +506,9 @@
                             Email
                         </span>
                         <input type="text" name="email" class="icon-input" required />
+                        <svg class="input">
+                            <use href="./images/icons.svg#icon-email-black"></use>
+                        </svg>
                     </label>
 
                     <label class="form-group">
