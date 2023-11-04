@@ -425,7 +425,7 @@ ul {
     color: var(--social-icon-color-footer);
 }
 
-.image > span {
+.team-name {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -433,9 +433,10 @@ ul {
     font-weight: var(--font-weight);
     line-height: normal;
     letter-spacing: 0.48px;
+    font-family: var(--font-family);
 }
 
-.image > em {
+.team-function {
     color: #757575;
     text-align: center;
     font-size: 16px;
@@ -443,6 +444,7 @@ ul {
     font-weight: var(--font-weight);
     line-height: normal;
     letter-spacing: 0.48px;
+    font-family: var(--font-family);
 }
 
 /*  Regular Customers Mobile */
@@ -695,7 +697,7 @@ ul {
     height: 50px;
     flex-shrink: 0;
     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -927,7 +929,7 @@ ul {
 
 .label-text {
     color: #757575;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -949,7 +951,7 @@ ul {
     color: #fff;
     transition: var(--transition);
     border-color: #2196F3;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1103,7 +1105,7 @@ ul {
 
 .mobile-menu-links {
     color: #212121;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
@@ -1149,14 +1151,14 @@ ul {
 
 .contact-menu-email {
     color: #757575;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 24px;
     letter-spacing: 0.48px;
 }
 
 .contact-phone-menu {
     color: #2196F3;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 34px;
     letter-spacing: 0.68px;
 }
@@ -1173,7 +1175,7 @@ ul {
 .content-mobile-menu {
     margin-top: 20px;
     color: #2196F3;
-    font-family: Roboto;
+    font-family: var(--font-family);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
