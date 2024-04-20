@@ -377,6 +377,7 @@ ul {
   justify-content: center;
   flex-shrink: 0;
   padding: 15px;
+  margin: 0 auto;
 }
 
 .images {
@@ -1379,23 +1380,22 @@ ul {
   }
 
   .image {
-    flex-shrink: 0;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    flex-direction: column;
     align-items: center;
     background-color: var(--background-color);
+    width: 100%; /* Ocupă întreaga lățime a coloanei */
+    height: auto; /* Ajustează în funcție de conținut */
+    flex-shrink: 0; /* Previne diminuarea */
   }
 
   .box-card {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Două coloane egale */
+    grid-template-columns: repeat(2, 1fr); /* Două coloane egale */
+    grid-template-rows: repeat(2, 1fr); /* Două rânduri egale */
     grid-column-gap: 30px; /* Spațiu între coloane */
     grid-row-gap: 30px; /* Spațiu între rânduri */
     align-items: center; /* Aliniere pe axa verticală */
     padding: 15px;
-    flex-shrink: 0;
+    margin: 0 auto;
   }
 
   .icon-customers > ul {
@@ -1665,6 +1665,7 @@ ul {
     gap: 30px;
     flex-direction: row;
     flex-shrink: 0;
+    margin: 0 auto;
   }
 
   .images {
